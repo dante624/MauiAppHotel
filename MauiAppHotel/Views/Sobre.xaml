@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="#F3F0E8">
+
+    <VerticalStackLayout Padding="25"
+                         Spacing="20"
+                         VerticalOptions="Center">
+
+        <Label Text="SOBRE O APLICATIVO"
+               FontSize="13"
+               FontAttributes="Bold"
+               TextColor="#4F827C"
+               CharacterSpacing="2"
+               HorizontalOptions="Center"/>
+
+        <Label Text="App Hotel"
+               FontFamily="Kalam"
+               FontSize="42"
+               TextColor="#203B46"
+               HorizontalOptions="Center"/>
+
+        <Frame Padding="25"
+               CornerRadius="16"
+               BackgroundColor="White"
+               BorderColor="#E5E2DA"
+               HasShadow="False">
+
+            <VerticalStackLayout Spacing="15">
+
+                <Label Text="Informações do desenvolvedor"
+                       FontSize="19"
+                       FontAttributes="Bold"
+                       TextColor="#203B46"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Desenvolvido por:"
+                       FontSize="14"
+                       TextColor="#687477"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Dante Rodrigues Oliveira"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="#4F827C"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Ano de desenvolvimento: 2026"
+                       FontSize="14"
+                       TextColor="#687477"
+                       HorizontalOptions="Center"/>
+
+            </VerticalStackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+
+</ContentPage>
